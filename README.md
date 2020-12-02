@@ -5,7 +5,7 @@ This game uses Game Maker Studio 2.
 ## AI
 
 ### obj_enemy_smart
-This AI uses BFS on a time-dependent graph to plan its bullet avoidance. This produces an enemy that is almost impossible to hit.
+This AI uses BFS on a time-dependent graph to plan its bullet avoidance. This means that not only is the enemy able to avoid bullets near itself, it is able to plan its movements taking into account all bullets coming in its' direction, and plan a path around this. This produces an enemy that is almost impossible to hit.
 
 Player fighting obj_enemy_smart: https://streamable.com/dwjxss
 
